@@ -22,8 +22,10 @@ section {
 
 .first-half {
     width: 50%;
-    padding-left: 8%;
-    padding-top: 3%;
+    padding-left: 5%;
+    padding-top: 0;
+    padding-top: 0%;
+    margin: 0%;
 }
 
 .first-half img {
@@ -37,4 +39,22 @@ section {
     font-weight: 700;
     padding: 10px 40px;
     border-radius: 5px;
+}
+
+.roronoa {
+    margin-top: 150px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.extra {
+    padding-right: 100px;
+    width: 80%;
+}
+
+.last-half {
+    width: 40%;
+    padding-left: 5%;
+    box-shadow: 20px black;
 }
