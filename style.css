@@ -7,6 +7,10 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .orange-color {
     color: orange;
 }
@@ -26,6 +30,7 @@ h1 {
     padding-top: 0;
     padding-top: 0%;
     margin: 0%;
+
 }
 
 .first-half img {
@@ -60,4 +65,36 @@ h1 {
 
 .last-half h3 {
     color: orange;
+}
+
+.experience-div {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 20px gray;
+    padding-left: 20px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#baby-developer {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#pro-developer {
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato, orange);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
