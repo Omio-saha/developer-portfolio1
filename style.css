@@ -11,7 +11,7 @@ h1 {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
 }
 
@@ -55,6 +55,9 @@ section {
 
 .last-half {
     width: 40%;
-    padding-left: 5%;
-    box-shadow: 20px black;
+
+}
+
+.last-half h3 {
+    color: orange;
 }
